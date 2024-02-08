@@ -16,5 +16,20 @@ public class Main {
         System.out.println(longDemo / 5);
         System.out.println(longDemo * 25);
 
+        float floatDemo = 1.5F;
+        System.out.println(floatDemo);
+        double doubleDemo = 1.5;
+        System.out.println(doubleDemo);
+
+        System.out.println(integerDemo * integerDemo);
+        System.out.println(integerDemo * doubleDemo);
+        System.out.println(integerDemo * floatDemo);
+
+        System.out.println(integerDemo % 25);
+
+        String hello = "hello";
+        String world = "world";
+        System.out.println(hello);
+        System.out.println(hello + ' ' + world);
     }
 }
